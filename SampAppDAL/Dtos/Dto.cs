@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SampAppDAL.Dtos
 {
-    class Dto
+    public class Dto
     {
+        public long ID { get; set; }
     }
 }
