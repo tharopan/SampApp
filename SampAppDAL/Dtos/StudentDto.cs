@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SampAppDAL.Dtos
 {
-    class StudentDto
+    public class StudentDto : Dto
     {
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public DateTime DOB { get; set; }
     }
 }
